@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(/resources/gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url(/resources/gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: gilroy-semibold;
+    src: url(/resources/gilroy/Gilroy-SemiBold.ttf);
+}
+
+html {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 2.5rem 1.5rem 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav>ul>li,
+.login-link>ul>li {
+    display: inline;
+    padding: 1em;
+}
+
+nav>ul>li {
+    font-family: gilroy-medium;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.active {
+    color: #0065FE;
+}
+
+.login {
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0065FE;
+}
+
+.cta {
+    font-family: gilroy-semibold;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #0065FE;
+    width: Fixed (142px);
+    height: Fixed (44px);
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    gap: 10px;
+}
