@@ -18,17 +18,23 @@
     src: url(/resources/gilroy/Gilroy-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: gilroy-bold;
+    src: url(/resources/gilroy/Gilroy-Bold.ttf);
+}
+
 html {
     text-align: center;
+    color: #141414;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    max-width: 1440px;
+    width: 83%;
+    max-width: 1200px;
     margin: auto;
-    padding: 2.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem;
 }
 
 li {
@@ -38,7 +44,7 @@ li {
 nav>ul>li,
 .login-link>ul>li {
     display: inline;
-    padding: 1em;
+    margin: 1em;
 }
 
 nav>ul>li {
@@ -53,7 +59,7 @@ nav>ul>li {
     color: #0065FE;
 }
 
-.login {
+.cta-lnk {
     font-family: Gilroy-SemiBold;
     font-size: 16px;
     line-height: 19px;
@@ -62,7 +68,7 @@ nav>ul>li {
     color: #0065FE;
 }
 
-.cta {
+.cta-btn {
     font-family: gilroy-semibold;
     font-size: 16px;
     line-height: 12px;
@@ -75,4 +81,108 @@ nav>ul>li {
     padding: 12px 24px 12px 24px;
     border-radius: 100px;
     gap: 10px;
+
+    /* Fix this! */
+}
+
+.hero {
+    background-image: linear-gradient(#F6EEEB, #FFFFFF);
+}
+
+.main-content {
+    width: 70%;
+    margin: .5rem auto 4rem;
+    max-width: 1120px;
+}
+
+.hero-content {
+    margin: 3rem 0;
+}
+
+h1 {
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+h1>span {
+    color: #0065FE;
+}
+
+.hero-content>img {
+    margin-top: -80px;
+    margin-bottom: 15px;
+}
+
+.hero-content>p {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.main-cta {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    align-items: center;
+}
+
+.platform>img {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.data {
+    background-color: #F9FBFD;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+    max-width: 1440px;
+}
+
+.data-container>h2 {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.data-container>h2>span {
+    color: #005AE2;
+}
+
+.data-container h5 {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.data-container p {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.data-items {
+    display: flex;
+}
+
+.data-item {
+    width: 25%;
+    padding: .5rem;
 }
