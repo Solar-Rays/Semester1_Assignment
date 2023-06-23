@@ -83,6 +83,21 @@ nav>ul>li {
     gap: 10px;
 }
 
+.cta-btn-outline {
+    font-family: gilroy-semibold;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #FFFFFF;
+    color: #0065FE;
+    width: Fixed (142px);
+    height: Fixed (44px);
+    padding: 12px 24px 12px 24px;
+    border: #0065FE 1px solid;
+    border-radius: 100px;
+}
+
 /* Hero section  */
 
 .hero {
@@ -149,9 +164,9 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem;
+    padding: 3rem;
     max-width: 1440px;
-    width: 80%;
+    width: 83%;
     margin: auto;
 }
 
@@ -195,13 +210,13 @@ span {
 .features {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 5rem;
+    padding: 6rem 1rem 3rem 3rem;
     max-width: 1440px;
-    width: 80%;
+    width: 86%;
     margin: auto;
 }
 
- .features-copy {
+.features-copy {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
@@ -214,7 +229,7 @@ span {
     text-align: left;
 }
 
-.features-copy > div {
+.features-copy>div {
     display: flex;
     align-items: center;
 }
@@ -226,8 +241,183 @@ span {
     letter-spacing: 0em;
     text-align: left;
     padding: 1.5rem 5rem 1.5rem 1.8rem;
-} 
+}
 
 .features-item {
+    text-align: left;
+}
 
+.features-item h5 {
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 2rem 0 1rem;
+}
+
+.features-item p {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0 0 4rem 0;
+}
+
+.odd {
+    padding-right: 3rem;
+}
+
+/* Pricing section */
+
+.pricing-hero {
+    width: 50%;
+    margin: 4rem auto;
+
+}
+
+.pricing-hero h4 {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.pricing-hero p {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.pricing-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option .h5 {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.option h3 {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.option p {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.option ul {
+    list-style-image: url(/resources/check-circle.svg);
+    list-style-position: inside;
+}
+
+.option li {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: .5rem .5rem .5rem 0;
+}
+
+.basic {
+    border: solid #005AE2 .4px;
+    border-radius: 10px 0 0 10px;
+    margin-right: -1px;
+    padding: 1.5rem 3.5rem 2rem 4.5rem;
+}
+
+.teams{
+    border: solid #005AE2 .4px;
+    border-radius: 0 10px 10px 0;
+    margin-left: -1px;
+    padding: 1.5rem 4.5rem 2rem 3.5rem;
+}
+.option-main {
+    color: #FFFFFF;
+    background-color: #1E3448;
+    border-radius: 10px;
+    padding: 6rem 5rem 8rem;
+}
+
+.option-main .h5 {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.option-main h3 {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.option-main p {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.option-main li {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: .5rem .5rem .7rem 0;
+}
+
+.option-main ul {
+    list-style-image: url(/resources/check-circle-white.svg);
+    list-style-position: inside;
+}
+
+.pricing-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: auto;
+}
+
+.custom-pricing {
+    margin-right: .5rem;
+    padding: 15px 24px;
+}
+
+.select-pricing {
+    margin-left: .5rem;
+    padding: 16px 46px;
 }
