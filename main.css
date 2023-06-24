@@ -274,7 +274,12 @@ span {
 .pricing-hero {
     width: 50%;
     margin: 4rem auto;
+}
 
+.pricing-hero > div {
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .pricing-hero h4 {
